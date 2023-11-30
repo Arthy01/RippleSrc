@@ -16,14 +16,6 @@ namespace Ripple
         public bool IsConnected => CheckConnection();
         public bool IsConnecting { get; private set; } = false;
 
-        /*
-        [Header("Database Connection Properties")]
-        private string _host = "45.85.217.205";
-        private string _user = "Ripple_Program";
-        private string _password = "SuperSafe0815";
-        private string _database = "Ripple";
-        */
-
         [Header("References")]
         [SerializeField] private NotificationManager _databaseConnectionError;
         [SerializeField] private NotificationManager _databaseConnectionRestored;
